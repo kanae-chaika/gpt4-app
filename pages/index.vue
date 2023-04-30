@@ -15,6 +15,7 @@ const handleClick = async () => {
       prompt,
     },
   });
+  console.log(data.value);
   generateText.value = data.value.choices[0].text
     ? data.value.choices[0].text
     : data.value;
