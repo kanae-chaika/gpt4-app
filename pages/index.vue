@@ -17,7 +17,7 @@ const handleClick = async () => {
   });
   generateText.value = data.value.choices[0].text
     ? data.value.choices[0].text
-    : data.value.error.message;
+    : data.value;
 };
 </script>
 
